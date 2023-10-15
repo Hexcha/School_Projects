@@ -22,10 +22,5 @@ public class Main {
         //We divided here because if we divide the product of two numbers by their greatest common factor, we find their least common multiple
         System.out.println("The least common multiple of those numbers are: " + product / num1);
         System.out.println("The greatest common factor finder of those numbers are: " + num1);
-
-
-
-
-
     }
     }
