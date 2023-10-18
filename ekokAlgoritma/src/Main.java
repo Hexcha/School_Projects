@@ -8,9 +8,9 @@ public class Main {
         int num1 = scanner.nextInt();
         System.out.print("Type the second number: ");
         int num2 = scanner.nextInt();
-        //Multiplied because multiplication of gdc and lcm equals the multiplication of those two numbers
+        //Multiplied because multiplication of gcf and lcm equals the multiplication of those two numbers
         int product = num1*num2;
-        //The point of the loop is equaling num1 and num2 because at the end both of them will be gdc
+        //The point of the loop is equaling num1 and num2 because at the end both of them will be gcf
         while(num1!=num2){
             if(num1>num2){
                 num1=num1-num2;
