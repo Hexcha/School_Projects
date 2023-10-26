@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         System.out.println("Welcome to my least common multiple and greatest common factor finder program! ");
-        //Getting the inputs
         Scanner scanner= new Scanner(System.in);
         System.out.print("Type the first number: ");
         int num1 = scanner.nextInt();
